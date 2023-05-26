@@ -20,7 +20,7 @@ def main():
             Pandora-Cloud - A web interface to ChatGPT
             Github: https://github.com/pengzhile/pandora
             Version: {}, Mode: cloud, Engine: free
-          '''.format(__version__)
+        '''.format(__version__)
     )
 
     parser = argparse.ArgumentParser()
